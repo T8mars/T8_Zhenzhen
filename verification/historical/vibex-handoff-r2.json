@@ -1,0 +1,48 @@
+{
+  "status": "passed",
+  "date": "2026-10-15",
+  "app_id": "app-c7fc28792e814eaabdbf6806b4a76e6d",
+  "game_version": 7,
+  "game_revision": 17,
+  "web_handoff_revision": 2,
+  "working_directory": "D:\\rea-projects\\t8-web-vibex-handoff-v7",
+  "upload_zip": "D:\\rea-projects\\T8-VIBEX-v7-交接版-app-src.zip",
+  "upload_zip_sha256": "f4b4bd570ba1ab1ec7a115d2c17484e0213b366f528802722c9df8c93c779e0e",
+  "upload_target": "app/src",
+  "extract": true,
+  "expected_written_paths": [
+    "app/src/App.tsx",
+    "app/src/lib/cartridge.ts",
+    "app/src/lib/storage.ts",
+    "app/src/assets/t8-zhenzhen-v7.bps"
+  ],
+  "source_hashes": {
+    "App.tsx": "ea68b0e50f0a0228ccc252ec37dcbe06ec6155b6a09154af4a672c86dfab46ef",
+    "lib/cartridge.ts": "ee11a76ff9ef98bb3460fba78bbd4b07681a4949d556c8a0563f313859b6c233",
+    "lib/storage.ts": "a61e4dfa4157baa96d92ee399a51aa80ce6fb90efc12aa763876a82a5a7eece8",
+    "assets/t8-zhenzhen-v7.bps": "85ad65cf8991c5df68bead128be74c2480a9e88d4f77577dacc95d447f439e4f"
+  },
+  "source_rom_sha256": "4473b008df230c7dc071a977c26b0b53426aeb9fff2042935f10e8c4c7457225",
+  "target_rom_sha256": "c3baec6b9c555cd1b1170e38d9d88f64805c08629144c01f0e8dcf9c5916e315",
+  "bps_sha256": "85ad65cf8991c5df68bead128be74c2480a9e88d4f77577dacc95d447f439e4f",
+  "changed_original_files": [
+    "src/App.tsx"
+  ],
+  "protected_original_source_files_equal": true,
+  "passed_commands": [
+    "pnpm run build",
+    "pnpm run lint",
+    "node --experimental-strip-types --test tests/cartridge-startup.mjs tests/interaction-save.mjs tests/storage-migration.mjs"
+  ],
+  "tests_passed": 13,
+  "v6_storage_keys_retained": true,
+  "v7_storage_keys": {
+    "rom": "t8-zhenzhen-rom-v7",
+    "save_prefix": "t8-zhenzhen-save-v7-",
+    "migration_marker": "t8-zhenzhen-migration-v7"
+  },
+  "migration": "Copy only legacy entries identifying the current v7 ROM, preserve originals and existing destinations; marker prevents resurrection after clearing v7 data; failed writes retryable",
+  "supersedes": "Earlier3-file v7 webpage upgrade used v6 namespace; use this4-file handoff version for deployment",
+  "remote_preview_and_publication_verified": false,
+  "gitee_push": "deferred by user"
+}

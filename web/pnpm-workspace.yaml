@@ -1,0 +1,7 @@
+allowBuilds:
+  '@parcel/watcher': false
+  '@swc/core': false
+  core-js: false
+  less: false
+  protobufjs: false
+onlyBuiltDependencies: []

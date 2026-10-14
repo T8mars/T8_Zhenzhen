@@ -1,0 +1,50 @@
+{
+  "status": "passed",
+  "producer": "Actual official FCEUX2.7.0 cold process; natural controller route, no runtime RAM writes",
+  "rom_sha256": "c3baec6b9c555cd1b1170e38d9d88f64805c08629144c01f0e8dcf9c5916e315",
+  "emulator_sha256": "b4c647051c6b3cc7ea709c02056150ac50c65f0fc1d38bfefa51c26f7f4ff875",
+  "frames": 470,
+  "elapsed_seconds": 0.7970000000000255,
+  "cold_first_level": {
+    "frame": 310,
+    "world": 1,
+    "level": 1,
+    "mode": 8,
+    "life": 30,
+    "manual": 0,
+    "npcActive": 1
+  },
+  "manual_control_at375": {
+    "frame": 375,
+    "world": 1,
+    "level": 1,
+    "mode": 8,
+    "life": 30,
+    "manual": 1,
+    "npcActive": 1
+  },
+  "final": {
+    "frame": 470,
+    "world": 1,
+    "level": 1,
+    "mode": 8,
+    "life": 30,
+    "manual": 0,
+    "npcActive": 1
+  },
+  "profile": {
+    "ram_zero": true,
+    "two_ports": true,
+    "Q_W_configured": true,
+    "Q_W_hotkey_conflicts": false,
+    "frameskip": 0
+  },
+  "saved_profile": {
+    "ram_zero": true,
+    "two_ports": true,
+    "Q_W_configured": true,
+    "Q_W_hotkey_conflicts": false,
+    "frameskip": 0
+  },
+  "scope": "Power-on1-1/30 lives, S summon, Q manual control and return, persisted input configuration; physical desktop key events not injected. Historical45 native replays used an earlier binary."
+}

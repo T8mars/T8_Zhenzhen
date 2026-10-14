@@ -1,0 +1,19 @@
+{
+  "app_id": "app-c7fc28792e814eaabdbf6806b4a76e6d",
+  "name": "T8与贞贞的马里奥大冒险",
+  "exported_at": "2026-10-14T16:07:33.848046+00:00",
+  "source": "dev-container",
+  "includes_pb_data": false,
+  "removed_sensitive_files": [],
+  "entrypoints": {
+    "macos": "vibex-local/start-macos.sh",
+    "linux": "vibex-local/start-linux.sh",
+    "windows": "vibex-local/start-windows.bat"
+  },
+  "coding_agent_guidance": {
+    "skill": ".vibex/skills/vibex-app-source-roundtrip/SKILL.md",
+    "codex": "AGENTS.md",
+    "claude_code": "CLAUDE.md",
+    "cursor": ".cursor/rules/vibex-source-roundtrip.mdc"
+  }
+}

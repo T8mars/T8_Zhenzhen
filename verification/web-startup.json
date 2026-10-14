@@ -1,0 +1,41 @@
+{
+  "producer": "Actual pinned JSNES2.1.0 cartridge execution using the changed source loader",
+  "source_sha256": "4473b008df230c7dc071a977c26b0b53426aeb9fff2042935f10e8c4c7457225",
+  "target_sha256": "c3baec6b9c555cd1b1170e38d9d88f64805c08629144c01f0e8dcf9c5916e315",
+  "observations": [
+    {
+      "case": "cold-boot",
+      "before": {
+        "world": 255,
+        "level": 0,
+        "mode": 8,
+        "life": 30
+      },
+      "after": {
+        "world": 0,
+        "level": 0,
+        "mode": 8,
+        "life": 30
+      }
+    },
+    {
+      "case": "restart",
+      "after": {
+        "world": 0,
+        "level": 0,
+        "mode": 8,
+        "life": 30
+      }
+    },
+    {
+      "case": "saved-state",
+      "ram_exact": true,
+      "next_frame_exact": true
+    },
+    {
+      "case": "memory-boundary",
+      "cleared_bytes": 2048,
+      "cartridge_bytes_unchanged": true
+    }
+  ]
+}

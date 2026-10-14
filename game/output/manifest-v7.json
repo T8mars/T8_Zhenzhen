@@ -1,0 +1,103 @@
+{
+  "version": 7,
+  "revision": 17,
+  "status": "verified-local-release-with-declared-scope",
+  "source_sha256": "4473b008df230c7dc071a977c26b0b53426aeb9fff2042935f10e8c4c7457225",
+  "target_sha256": "c3baec6b9c555cd1b1170e38d9d88f64805c08629144c01f0e8dcf9c5916e315",
+  "patch_sha256": "85ad65cf8991c5df68bead128be74c2480a9e88d4f77577dacc95d447f439e4f",
+  "rom_bytes": 122896,
+  "patch_bytes": 13027,
+  "rom": "output/t8-zhenzhen-v7.nes",
+  "patch": "output/t8-zhenzhen-v7.bps",
+  "launcher": "开始游戏-v7.cmd",
+  "emulator": "tools/fceux-v7/fceux64.exe",
+  "source_zip": "output/T8与贞贞-v7-源码与补丁.zip",
+  "video": "assets/v7/T8与贞贞-v7-十招实机演示.mp4",
+  "final_audit": "evidence/v7/final-audit-v7.json",
+  "features": [
+    {
+      "id": "fan-herd",
+      "name": "扇过来，我踩！",
+      "status": "implemented-and-runtime-verified",
+      "proof": "evidence/v7/gameplay-p17/natural-v7-fan-herd-and-partner-stomp-481/report.json",
+      "scope": "natural-cold-controller-route"
+    },
+    {
+      "id": "buddy-bowling",
+      "name": "队友保龄球",
+      "status": "implemented-and-runtime-verified",
+      "proof": "evidence/v7/gameplay-p17/natural-v7-buddy-bowling-first-goomba/report.json",
+      "scope": "natural-cold-controller-route"
+    },
+    {
+      "id": "short-control",
+      "name": "这次贞贞当班",
+      "status": "implemented-and-runtime-verified",
+      "proof": "evidence/v7/gameplay-p17/natural-v7-manual-control-and-return/report.json",
+      "scope": "natural-cold-controller-route"
+    },
+    {
+      "id": "edge-hand",
+      "name": "坑边拉一把",
+      "status": "implemented-and-runtime-verified",
+      "proof": "evidence/v7/gameplay-p17/natural-v7-pit-edge-grab-and-continuous-climb/report.json",
+      "scope": "natural-cold-controller-route"
+    },
+    {
+      "id": "fan-hide",
+      "name": "借扇躲猫猫",
+      "status": "implemented-and-runtime-verified",
+      "proof": "evidence/v7/gameplay-p17/natural-v7-fan-hide-peek-and-return/report.json",
+      "scope": "natural-cold-controller-route"
+    },
+    {
+      "id": "back-pose",
+      "name": "背靠背摆帅",
+      "status": "implemented-and-runtime-verified",
+      "proof": "evidence/v7/gameplay-p17/natural-v7-back-pose-she-leaves-first/report.json",
+      "scope": "natural-cold-controller-route"
+    },
+    {
+      "id": "short-toss",
+      "name": "托一下，再抛搭子",
+      "status": "implemented-and-runtime-verified",
+      "proof": "evidence/v7/gameplay-p17/natural-v7-short-toss-legal-turn/report.json",
+      "scope": "natural-cold-controller-route"
+    },
+    {
+      "id": "platform-seat",
+      "name": "留座赶车",
+      "status": "implemented-and-runtime-verified",
+      "proof": "evidence/v7/gameplay-p17/diagnostic-v7-platform-S-shore-490/report.json",
+      "scope": "explicit-native-platform-initial-state-diagnostic"
+    },
+    {
+      "id": "hand-brake",
+      "name": "牵手借刹车",
+      "status": "implemented-and-runtime-verified",
+      "proof": "evidence/v7/gameplay-p17/natural-v7-hand-brake/report.json",
+      "scope": "natural-cold-controller-route"
+    },
+    {
+      "id": "fan-descent",
+      "name": "扇下挤一挤",
+      "status": "implemented-and-runtime-verified",
+      "proof": "evidence/v7/gameplay-p17/natural-v7-fan-descent-with-real-partner-5-7/report.json",
+      "scope": "natural-cold-controller-route"
+    }
+  ],
+  "limits": [
+    "移动平台功能在原1-2原生平台验证；该段设置了区域、角色与视口初始条件，没有写入平台或敌人的位置/速度/轨迹。未把它当作从开局自然走完整条路线的证明。",
+    "新增帧开销可能改变密集场景的碰撞时机。一条旧双怪回放中，两模拟器均保留30命并完成踩怪、落头、二跳各一次；FCEUX结束为小体型，JSNES为大体型，全部差异已记录。",
+    "保留FC每扫描线8精灵限制；密集场景仍可能闪烁或减速。没有宣称完整通关、全程60fps、实体卡带兼容或真人趣味评分。",
+    "E/R/Q/W互动用于单人模式；原轮流双人模式不启用这些互动。键盘映射通过配置加载保存验证，没有向用户桌面注入实体按键。"
+  ],
+  "preserved_releases": [
+    "v3",
+    "v4",
+    "v5",
+    "v6"
+  ],
+  "publishing": "Gitee push deferred by user; website not remotely republished",
+  "source_zip_rule": "No complete game ROM or emulator binary"
+}

@@ -1,0 +1,7 @@
+* text=auto eol=lf
+*.cmd text eol=crlf
+*.png binary
+*.jpg binary
+*.bps binary
+# FCEUX encodes empty values as a key followed by a space.
+packaging/fceux-v7.cfg whitespace=-blank-at-eol

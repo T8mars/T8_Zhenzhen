@@ -1,0 +1,679 @@
+{
+  "status": "passed-with-declared-runtime-scope",
+  "version": 7,
+  "revision": 17,
+  "rom_sha256": "c3baec6b9c555cd1b1170e38d9d88f64805c08629144c01f0e8dcf9c5916e315",
+  "producer": "Local byte/source/runtime/media audit; not REA Evidence",
+  "checks": [
+    {
+      "name": "all delivered identities agree",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "formal aliases match compiled cartridge",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "exact original preserved",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "only old emulator runtime preferences differ",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "recorded earlier config identity preserved in archive",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "old input bindings and zero-RAM option unchanged",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "REA checkout remains clean",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "code/state/reset/scratch do not overlap",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "all ten implemented with individual runtime evidence",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "natural-regression passed",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "legacy-edge-checks passed",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "boundary-checks passed",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "new-boundary-checks passed",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "all276 graphics selectors independently rendered",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "all45 native replay semantic gates passed",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "one observed dense route variance explicitly retained",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "real original platform carries then releases to shore",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "true airborne back load, not ground catch",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "guarded native patch 0xee17",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "guarded native patch 0x8000",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "guarded native patch 0x8175",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "guarded native patch 0x80ea",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "guarded native patch 0x8e7b",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "guarded native patch 0x814d",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "guarded native patch 0x80c3",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "guarded native patch 0x8808",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "guarded native patch 0xb15a",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "guarded native patch 0xd853",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "guarded native patch 0xb65a",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "guarded native patch 0xbcad",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "guarded native patch 0x9069",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "guarded native patch 0x8755",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "guarded native patch 0x879b",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "guarded native patch 0x87ae",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "original levels and all nonadmitted PRG bytes retained",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "nonplayer CHR outside admitted resource pool preserved",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "T8 HUD uses actual T glyph",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "background page including T8 glyph matches v6",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "extra sprite page 2 preserves native resources",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "extra sprite page 3 preserves native resources",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "extra sprite page 4 preserves native resources",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "extra sprite page 5 preserves native resources",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "extra sprite page 6 preserves native resources",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "extra sprite page 7 preserves native resources",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "extra sprite page 8 preserves native resources",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "extra sprite page 9 preserves native resources",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "extra sprite page 10 preserves native resources",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "extra sprite page 11 preserves native resources",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "extra sprite page 12 preserves native resources",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "extra sprite page 13 preserves native resources",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "source ZIP independently reconstructs exact current target",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "source bundle has no full ROM or emulator",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "every packaged source and virtual context hash matches",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "asset identity assets/v7/01-fan-herd.png",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "asset identity assets/v7/02-buddy-bowling.png",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "asset identity assets/v7/03-short-control.png",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "asset identity assets/v7/04-edge-hand.png",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "asset identity assets/v7/05-fan-hide.png",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "asset identity assets/v7/06-back-pose.png",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "asset identity assets/v7/07-short-toss.png",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "asset identity assets/v7/08-platform-seat.png",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "asset identity assets/v7/09-hand-brake.png",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "asset identity assets/v7/10-fan-descent.png",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "asset identity assets/v7/十种互动-真实截图总览.png",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "asset identity assets/v7/T8与贞贞-v7-十招实机演示.mp4",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "video source 01-fan is current and its scope recorded",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "audio-enabled replay 01-fan reproduces states",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "chapter 01-fan contains actual unclipped game audio",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "every chapter frame retained 01-fan",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "video source 02-ball is current and its scope recorded",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "audio-enabled replay 02-ball reproduces states",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "chapter 02-ball contains actual unclipped game audio",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "every chapter frame retained 02-ball",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "video source 03-manual is current and its scope recorded",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "audio-enabled replay 03-manual reproduces states",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "chapter 03-manual contains actual unclipped game audio",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "every chapter frame retained 03-manual",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "video source 04-edge is current and its scope recorded",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "audio-enabled replay 04-edge reproduces states",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "chapter 04-edge contains actual unclipped game audio",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "every chapter frame retained 04-edge",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "video source 05-hide is current and its scope recorded",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "audio-enabled replay 05-hide reproduces states",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "chapter 05-hide contains actual unclipped game audio",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "every chapter frame retained 05-hide",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "video source 06-pose is current and its scope recorded",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "audio-enabled replay 06-pose reproduces states",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "chapter 06-pose contains actual unclipped game audio",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "every chapter frame retained 06-pose",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "video source 07-toss is current and its scope recorded",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "audio-enabled replay 07-toss reproduces states",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "chapter 07-toss contains actual unclipped game audio",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "every chapter frame retained 07-toss",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "video source 08-platform is current and its scope recorded",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "audio-enabled replay 08-platform reproduces states",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "chapter 08-platform contains actual unclipped game audio",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "every chapter frame retained 08-platform",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "video source 09-brake is current and its scope recorded",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "audio-enabled replay 09-brake reproduces states",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "chapter 09-brake contains actual unclipped game audio",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "every chapter frame retained 09-brake",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "video source 10-glide is current and its scope recorded",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "audio-enabled replay 10-glide reproduces states",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "chapter 10-glide contains actual unclipped game audio",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "every chapter frame retained 10-glide",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "teaching separates9 natural chapters and1 initial-state diagnostic",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "full video is1080p60 and48k stereo",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "video duration and frame count exact",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "full left game viewport matches source without cropping",
+      "passed": true,
+      "evidence": {
+        "PSNR_dB": 43.4793144729244,
+        "expected_viewport": [
+          40,
+          60,
+          1024,
+          960
+        ]
+      }
+    },
+    {
+      "name": "website upgrade identifies current patch and exact3 upload paths",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "upload ZIP identity matches verified handoff",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "original source and previously delivered boot-only fix preserved",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "dedicated profile includesQ/W and original source index",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "release profile cold-loads and executes real normal-speed game",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "actual native load-save preserves allfour P2 bindings",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "native load-save retains zero bare Q/W command conflicts",
+      "passed": true,
+      "evidence": null
+    }
+  ],
+  "verified_features": [
+    {
+      "id": "fan-herd",
+      "name": "扇过来，我踩！",
+      "status": "implemented-and-runtime-verified",
+      "proof": "evidence/v7/gameplay-p17/natural-v7-fan-herd-and-partner-stomp-481/report.json",
+      "scope": "natural-cold-controller-route"
+    },
+    {
+      "id": "buddy-bowling",
+      "name": "队友保龄球",
+      "status": "implemented-and-runtime-verified",
+      "proof": "evidence/v7/gameplay-p17/natural-v7-buddy-bowling-first-goomba/report.json",
+      "scope": "natural-cold-controller-route"
+    },
+    {
+      "id": "short-control",
+      "name": "这次贞贞当班",
+      "status": "implemented-and-runtime-verified",
+      "proof": "evidence/v7/gameplay-p17/natural-v7-manual-control-and-return/report.json",
+      "scope": "natural-cold-controller-route"
+    },
+    {
+      "id": "edge-hand",
+      "name": "坑边拉一把",
+      "status": "implemented-and-runtime-verified",
+      "proof": "evidence/v7/gameplay-p17/natural-v7-pit-edge-grab-and-continuous-climb/report.json",
+      "scope": "natural-cold-controller-route"
+    },
+    {
+      "id": "fan-hide",
+      "name": "借扇躲猫猫",
+      "status": "implemented-and-runtime-verified",
+      "proof": "evidence/v7/gameplay-p17/natural-v7-fan-hide-peek-and-return/report.json",
+      "scope": "natural-cold-controller-route"
+    },
+    {
+      "id": "back-pose",
+      "name": "背靠背摆帅",
+      "status": "implemented-and-runtime-verified",
+      "proof": "evidence/v7/gameplay-p17/natural-v7-back-pose-she-leaves-first/report.json",
+      "scope": "natural-cold-controller-route"
+    },
+    {
+      "id": "short-toss",
+      "name": "托一下，再抛搭子",
+      "status": "implemented-and-runtime-verified",
+      "proof": "evidence/v7/gameplay-p17/natural-v7-short-toss-legal-turn/report.json",
+      "scope": "natural-cold-controller-route"
+    },
+    {
+      "id": "platform-seat",
+      "name": "留座赶车",
+      "status": "implemented-and-runtime-verified",
+      "proof": "evidence/v7/gameplay-p17/diagnostic-v7-platform-S-shore-490/report.json",
+      "scope": "explicit-native-platform-initial-state-diagnostic"
+    },
+    {
+      "id": "hand-brake",
+      "name": "牵手借刹车",
+      "status": "implemented-and-runtime-verified",
+      "proof": "evidence/v7/gameplay-p17/natural-v7-hand-brake/report.json",
+      "scope": "natural-cold-controller-route"
+    },
+    {
+      "id": "fan-descent",
+      "name": "扇下挤一挤",
+      "status": "implemented-and-runtime-verified",
+      "proof": "evidence/v7/gameplay-p17/natural-v7-fan-descent-with-real-partner-5-7/report.json",
+      "scope": "natural-cold-controller-route"
+    }
+  ],
+  "native_frames": 39912,
+  "preserved_artifacts": 211,
+  "limits": [
+    "移动平台功能在原1-2原生平台验证；该段设置了区域、角色与视口初始条件，没有写入平台或敌人的位置/速度/轨迹。未把它当作从开局自然走完整条路线的证明。",
+    "新增帧开销可能改变密集场景的碰撞时机。一条旧双怪回放中，两模拟器均保留30命并完成踩怪、落头、二跳各一次；FCEUX结束为小体型，JSNES为大体型，全部差异已记录。",
+    "保留FC每扫描线8精灵限制；密集场景仍可能闪烁或减速。没有宣称完整通关、全程60fps、实体卡带兼容或真人趣味评分。",
+    "E/R/Q/W互动用于单人模式；原轮流双人模式不启用这些互动。键盘映射通过配置加载保存验证，没有向用户桌面注入实体按键。"
+  ],
+  "performance": "evidence/v7/performance-summary.json",
+  "publication": "No Gitee push or remote republish performed"
+}

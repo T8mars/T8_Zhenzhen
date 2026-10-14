@@ -1,0 +1,72 @@
+[
+  {
+    "id": "fan-herd",
+    "name": "扇过来，我踩！",
+    "status": "implemented-and-runtime-verified",
+    "proof": "evidence/v7/gameplay-p17/natural-v7-fan-herd-and-partner-stomp-481/report.json",
+    "scope": "natural-cold-controller-route"
+  },
+  {
+    "id": "buddy-bowling",
+    "name": "队友保龄球",
+    "status": "implemented-and-runtime-verified",
+    "proof": "evidence/v7/gameplay-p17/natural-v7-buddy-bowling-first-goomba/report.json",
+    "scope": "natural-cold-controller-route"
+  },
+  {
+    "id": "short-control",
+    "name": "这次贞贞当班",
+    "status": "implemented-and-runtime-verified",
+    "proof": "evidence/v7/gameplay-p17/natural-v7-manual-control-and-return/report.json",
+    "scope": "natural-cold-controller-route"
+  },
+  {
+    "id": "edge-hand",
+    "name": "坑边拉一把",
+    "status": "implemented-and-runtime-verified",
+    "proof": "evidence/v7/gameplay-p17/natural-v7-pit-edge-grab-and-continuous-climb/report.json",
+    "scope": "natural-cold-controller-route"
+  },
+  {
+    "id": "fan-hide",
+    "name": "借扇躲猫猫",
+    "status": "implemented-and-runtime-verified",
+    "proof": "evidence/v7/gameplay-p17/natural-v7-fan-hide-peek-and-return/report.json",
+    "scope": "natural-cold-controller-route"
+  },
+  {
+    "id": "back-pose",
+    "name": "背靠背摆帅",
+    "status": "implemented-and-runtime-verified",
+    "proof": "evidence/v7/gameplay-p17/natural-v7-back-pose-she-leaves-first/report.json",
+    "scope": "natural-cold-controller-route"
+  },
+  {
+    "id": "short-toss",
+    "name": "托一下，再抛搭子",
+    "status": "implemented-and-runtime-verified",
+    "proof": "evidence/v7/gameplay-p17/natural-v7-short-toss-legal-turn/report.json",
+    "scope": "natural-cold-controller-route"
+  },
+  {
+    "id": "platform-seat",
+    "name": "留座赶车",
+    "status": "implemented-and-runtime-verified",
+    "proof": "evidence/v7/gameplay-p17/diagnostic-v7-platform-S-shore-490/report.json",
+    "scope": "explicit-native-platform-initial-state-diagnostic"
+  },
+  {
+    "id": "hand-brake",
+    "name": "牵手借刹车",
+    "status": "implemented-and-runtime-verified",
+    "proof": "evidence/v7/gameplay-p17/natural-v7-hand-brake/report.json",
+    "scope": "natural-cold-controller-route"
+  },
+  {
+    "id": "fan-descent",
+    "name": "扇下挤一挤",
+    "status": "implemented-and-runtime-verified",
+    "proof": "evidence/v7/gameplay-p17/natural-v7-fan-descent-with-real-partner-5-7/report.json",
+    "scope": "natural-cold-controller-route"
+  }
+]

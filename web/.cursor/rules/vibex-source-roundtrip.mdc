@@ -1,0 +1,6 @@
+---
+description: VibeX source export editing and return-upload rules
+alwaysApply: true
+---
+
+This project was downloaded from a running VibeX app. Before changing code or preparing an upload package, read and follow `.vibex/skills/vibex-app-source-roundtrip/SKILL.md`.
